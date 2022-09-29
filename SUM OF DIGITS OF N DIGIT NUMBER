@@ -1,0 +1,18 @@
+#include <iostream>  
+using namespace std;  
+int main()  
+{  
+int n,sum=0,m,N;   
+cout<<"enter the value of N :";
+cin >>N; 
+cout<<"enter"<< N << "digit number is :";
+cin>>n;   
+while(n>0)    
+{    
+m=n%10;    
+sum=sum+m;    
+n=n/10;    
+}    
+cout<<"Sum is= "<<sum<<endl;    
+return 0;  
+}  
