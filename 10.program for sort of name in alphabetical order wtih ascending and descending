@@ -30,6 +30,5 @@ int main()
                 cout<<" ";
                 cout<<str[i]<<"\n";
         }
-       }
-        return 0;
+      return 0;
 }
